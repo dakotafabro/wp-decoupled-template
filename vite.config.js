@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
 		plugins: [react()],
 		define: {
 			'process.env.backendUrl': JSON.stringify(
-				'https://my-wordpress-site.pantheon.io/wp/graphql',
+				'https://my-wordpress-site.wpenginepowered.com/wp/graphql',
 			),
 		},
 	};
